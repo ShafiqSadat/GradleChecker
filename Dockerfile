@@ -1,5 +1,5 @@
 FROM openjdk:11-jdk-slim as builder
-ENV PROJECT_NAME=ExampleTelegramBot
+ENV PROJECT_NAME=GrableBot
 
 ENV GRADLE_OPTS="-Dorg.gradle.daemon=false"
 ENV GRADLE_USER_HOME=/tmp/gradle
@@ -11,7 +11,7 @@ COPY . .
 RUN ./gradlew clean installDist
 
 FROM openjdk:11-jre-slim
-ENV PROJECT_NAME=ExampleTelegramBot
+ENV PROJECT_NAME=GrableBot
 
 WORKDIR /app
 
