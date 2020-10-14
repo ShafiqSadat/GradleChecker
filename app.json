@@ -1,6 +1,6 @@
 {
   "name": "Gradle Telegram Bot",
-  "description": "Gradle Telegram Robot",
+  "description": "Java Telegram bot",
   "repository": "https://github.com/ShafiqSadat/GradleBot",
   "logo": "https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg",
   "keywords": [
@@ -13,5 +13,7 @@
       "quantity": 1,
       "size": "free"
     }
+  },
+  "env": {
   }
 }
