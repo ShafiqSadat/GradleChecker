@@ -15,5 +15,17 @@
     }
   },
   "env": {
+    "EXAMPLE_TG_BOT_USERNAME": {
+      "description": "The bot name from BotFather",
+      "value": ""
+    },
+    "EXAMPLE_TG_BOT_TOKEN": {
+      "description": "The token from BotFather",
+      "value": ""
+    },
+    "EXAMPLE_TG_BOT_ADMIN_IDS": {
+      "description": "User ids separated by comma, allowing them to access /menu (You can obtain that id by typing /whoami)",
+      "value": ""
+    }
   }
 }
