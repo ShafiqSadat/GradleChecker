@@ -23,3 +23,7 @@ dependencies {
 //    compile "org.telegram:telegrambots:4.9.1"
 //    compile "org.xerial:sqlite-jdbc:3.32.3.2"
 }
+
+task stage {
+    dependsOn build
+}
