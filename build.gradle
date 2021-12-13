@@ -24,7 +24,7 @@ dependencies {
 
     implementation 'it.tdlight:tdlight-java'
     implementation 'it.tdlight:tdlight-natives-linux-amd64'
-    implementation 'tdlight-natives-linux-aarch64'
+//    implementation 'tdlight-natives-linux-aarch64'
     implementation 'tdlight-natives-linux-x86'
     implementation 'tdlight-natives-linux-armv6'
     implementation 'tdlight-natives-linux-armv7'
