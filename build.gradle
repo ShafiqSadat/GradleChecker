@@ -4,7 +4,13 @@ plugins {
 
 group 'org.example'
 version '1.0-SNAPSHOT'
-
+jar {
+    manifest(({
+        attributes(
+                'Main-Class': 'MainClass'
+        )
+    } as groovy.lang.Closure<?>))
+}
 repositories {
     mavenCentral()
     maven { url "https://mvn.mchv.eu/repository/mchv/" }
