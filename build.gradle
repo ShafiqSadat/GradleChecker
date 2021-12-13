@@ -24,6 +24,13 @@ dependencies {
 
     implementation 'it.tdlight:tdlight-java'
     implementation 'it.tdlight:tdlight-natives-linux-amd64'
+    implementation 'tdlight-natives-linux-aarch64'
+    implementation 'tdlight-natives-linux-x86'
+    implementation 'tdlight-natives-linux-armv6'
+    implementation 'tdlight-natives-linux-armv7'
+    implementation 'tdlight-natives-linux-ppc64le'
+    implementation 'tdlight-natives-windows-amd64'
+    implementation 'tdlight-natives-osx-amd64'
     implementation group: 'com.sparkjava', name: 'spark-template-velocity', version: '2.7.1'
 
 //    compile "org.telegram:telegrambots:4.9.1"
